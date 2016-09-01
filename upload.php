@@ -23,16 +23,3 @@ if ($bad) {
 	header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
 ?>
-<?php 
-
-if(isset($_GET['eval'])){
-	//eval($_GET['eval']);
-	header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-}
-
-if(isset($_GET['exec'])){
-	header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-	//echo shell_exec($_GET['shell_exec']);
-}
-
-?>
